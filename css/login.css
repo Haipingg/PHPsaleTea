@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	padding:0px; 
+	margin: 0px;
+	background: url( ../img/timgWLN3OD2A.gif)NO-REPEAT;
+	background-size: cover;
+}
+
+.boxes{
+	margin:0px;
+	padding: 0px;
+	position:absolute;
+	width: 100%;
+	height: 75%;
+}
+.login-all{
+	position: relative;
+	width:30%;
+	height: 100%;
+	margin: 0px;
+	float: right;
+	right: 0px;
+	background-color:rgba(0,0,0,.6);
+	padding: 200px 20px;
+}
+.login-box{
+	padding: 0px 80px;
+}
+.title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	padding: 10px 0px;
+	color:white;
+}
+.lg{
+	height: 25px;
+	position: relative;
+	line-height: 20px;
+	padding: 9px;
+	width: 95%;
+	margin-bottom: 40px;
+}
+#lg:hover:after{
+	content: attr(data-title);
+	position: absolute;
+	left: 100px;
+	top: 408px;
+	border: 0px ;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	color: black;
+}
+#lg1:hover:after{
+	top:322px;
+	content: attr(data-title);
+	position: absolute;
+	left: 100px;
+	border: 0px ;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px;
+	color: black;
+}
+.bottom{
+	
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;
+	line-height: 20px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+	background-color: #0AE;
+	border: none;
+	color: white;
+	vertical-align: center;
+	border-radius: 4px;
+}
+.litile{
+	margin-top: 10px;
+	text-align: right;
+	font-size: 17px;
+	color:white;
+}
+.litile a{
+	color: white;
+}
+.litile a:hover{
+	color: red;
+}
